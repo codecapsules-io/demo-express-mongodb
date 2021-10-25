@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
   res.status(200).json(
     [
       { id: 1, message: "Hello World" },
-      { id: 2, messagee: "Some other data" },
+      { id: 2, message: "Some other data" },
     ],
   );
 });
